@@ -47,8 +47,8 @@ services:
       # - '2003:2003' # Carbon line receiver
       # - '2004:2004' # Carbon pickle receiver
       # - '7002:7002' # Carbon cache query
-      - '8125:8125/udp' # StatsD
-      - '8126:8126' # StatsD admin
+      - '7125:7125/udp' # StatsD
+      - '7126:7126' # StatsD admin
     networks:
       - my-network
 
