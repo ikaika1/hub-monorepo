@@ -67,4 +67,8 @@ services:
 
 networks: 
   my-network:
+      driver: bridge
+      driver_opts:
+      mtu: 1450
+  
  
